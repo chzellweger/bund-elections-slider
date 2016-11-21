@@ -1,0 +1,7 @@
+{
+  "name": "masthead",
+  "version": "1.0.0",
+  "description": "Masthead Component. First version, should be spun off into a separate component / repository on a later date.",
+  "main": "MastheadComponent.js",
+  "private": true
+}

@@ -1,0 +1,26 @@
+.masthead-component.masthead-component.masthead-component {
+  position: absolute;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  padding: 0;
+
+  &.inverted {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    color: whitesmoke;
+  }
+
+  .logo {
+    margin: 1.414ex 0;
+    max-height: 3ex;
+    width: auto;
+  }
+}
+
+.masthead-component.masthead-component + * > * > *:first-child:before {
+  content: '';
+  display: block;
+  height: 80px;
+}

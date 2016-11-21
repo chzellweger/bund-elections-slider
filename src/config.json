@@ -1,0 +1,17 @@
+{
+  "language": "de",
+  "locale": "de_DE",
+  "pageTitle": "Als Bern noch bürgerlich wählte",
+  "description": "Glückliche Gewinner, tragische Verlierer und bürgerliche Mehrheiten: Die Berner Gemeinderatswahlen seit 1984 im Rückblick.",
+  "baseHref": "",
+  "author": "Der Bund",
+  "keywords": "Interaktiv, Bern, Gemeinderat, Wahlen, Gemeinderatswahlen",
+  "canonicalUrl": "http://interaktiv.derbund.ch/ext/2016/elections-slider",
+  "image": "http://files.newsnetz.ch/upload//1/0/101387.png",
+  "site_name": "Der Bund",
+  "twitterSite": "@derbund",
+  "twitterCreator": "@derbund",
+  "showLoader": true,
+  "lightLoader": true,
+  "useDimensionWatcher": false
+}
