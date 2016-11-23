@@ -69,7 +69,7 @@ componentDidMount() {
           
           <div>
               
-              *<MastheadComponent inverted={true}/>*/
+              <MastheadComponent inverted={true}/>
        
               <div>
                 
