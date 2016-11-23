@@ -80,7 +80,7 @@ componentDidMount() {
           </div>
       
           <FeedbackMessage />
-                    <CopyrightNotice inverted={true}/>
+          <CopyrightNotice inverted={true}/>
       
       </div>
       );
