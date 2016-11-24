@@ -36,6 +36,7 @@ class ElectionsCarousel extends Component {
 
                                 <div className="eight wide column">
                                     <img  className="ui centered large image" src="http://interaktiv.derbund.ch/ext/2016/elections-slider/images/front84-small.jpg" />
+                                    <p><a href="http://interaktiv.derbund.ch/ext/2016/elections-slider/images/front84.pdf" target="_blank">PDF-Version öffnen</a></p>
                                 </div>
                             
                                 <div className="six wide left aligned column">
@@ -56,6 +57,7 @@ class ElectionsCarousel extends Component {
 
                                 <div className="eight wide column">
                                     <img  className="ui centered large image" src="http://interaktiv.derbund.ch/ext/2016/elections-slider/images/front88-small.jpg" />
+                                    <p><a href="http://interaktiv.derbund.ch/ext/2016/elections-slider/images/front88.pdf" target="_blank">PDF-Version öffnen</a></p>
                                 </div>
                             
                                 <div className="six wide left aligned column">
@@ -76,6 +78,7 @@ class ElectionsCarousel extends Component {
 
                                 <div className="eight wide column">
                                     <img  className="ui centered large image" src="http://interaktiv.derbund.ch/ext/2016/elections-slider/images/front92-small.jpg" />
+                                    <p><a href="http://interaktiv.derbund.ch/ext/2016/elections-slider/images/front92.pdf" target="_blank">PDF-Version öffnen</a></p>
                                 </div>
                             
                                 <div className="six wide left aligned column">
@@ -96,6 +99,7 @@ class ElectionsCarousel extends Component {
 
                                 <div className="eight wide column">
                                     <img  className="ui centered large image" src="http://interaktiv.derbund.ch/ext/2016/elections-slider/images/front96-small.jpg" />
+                                    <p><a href="http://interaktiv.derbund.ch/ext/2016/elections-slider/images/front96.pdf" target="_blank">PDF-Version öffnen</a></p>
                                 </div>
                             
                                 <div className="six wide left aligned column">
@@ -116,6 +120,7 @@ class ElectionsCarousel extends Component {
 
                                 <div className="eight wide column">
                                     <img  className="ui centered large image" src="http://interaktiv.derbund.ch/ext/2016/elections-slider/images/front00-small.png" />
+                                    <p><a href="http://interaktiv.derbund.ch/ext/2016/elections-slider/images/front2000.pdf" target="_blank">PDF-Version öffnen</a></p>
                                 </div>
                             
                                 <div className="six wide left aligned column">
@@ -136,6 +141,7 @@ class ElectionsCarousel extends Component {
 
                                 <div className="eight wide column">
                                     <img  className="ui centered large image" src="http://interaktiv.derbund.ch/ext/2016/elections-slider/images/front04-small.png" />
+                                    <p><a href="http://interaktiv.derbund.ch/ext/2016/elections-slider/images/front2004.pdf" target="_blank">PDF-Version öffnen</a></p>
                                 </div>
                             
                                 <div className="six wide left aligned column">
@@ -155,13 +161,14 @@ class ElectionsCarousel extends Component {
 
                                 <div className="eight wide column">
                                     <img  className="ui centered large image" src="http://interaktiv.derbund.ch/ext/2016/elections-slider/images/front08-small.jpg" />
+                                    <p><a href="http://interaktiv.derbund.ch/ext/2016/elections-slider/images/front2008.pdf" target="_blank">PDF-Version öffnen</a></p>
                                 </div>
                             
                                 <div className="six wide left aligned column">
                                     <h2>2008</h2>
                                     <h4>Wahl am 30. November 2008</h4>
                                     <h3>«Stabilität in Krisenzeiten»</h3>
-                                    « Die bürgerliche Wende bleibt ein weiteres Mal aus. Mit einem Stimmenanteil von 56,3 Prozent hat die RGM-Liste ein hervorragendes Resultat erzielt. Noch vor einem Jahr sah die Situation für Rot-Grün-Mitte weniger rosig aus. Nach den Ausschreitungen an der Anti-SVP-Demonstration vom 6. Oktober stand die Stadt Bern einmal mehr als Hauptstadt des Krawalls und der Randgruppen in den Schlagzeilen. Was ist seither geschehen? Die Zersplitterung des bürgerlichen Lagers ist weiter fortgeschritten. [... ]RGM wiederum hat die Zeichen der Zeit erkannt: Mit der Enttabuisierung des Themas öffentliche Sicherheit haben SP und Grüne den Bürgerlichen den Wind aus den Segeln genommen.» – Bernhard Ott, «Bund» vom 1. Dezember 2008
+                                    «Die bürgerliche Wende bleibt ein weiteres Mal aus. Mit einem Stimmenanteil von 56,3 Prozent hat die RGM-Liste ein hervorragendes Resultat erzielt. Noch vor einem Jahr sah die Situation für Rot-Grün-Mitte weniger rosig aus. Nach den Ausschreitungen an der Anti-SVP-Demonstration vom 6. Oktober stand die Stadt Bern einmal mehr als Hauptstadt des Krawalls und der Randgruppen in den Schlagzeilen. Was ist seither geschehen? Die Zersplitterung des bürgerlichen Lagers ist weiter fortgeschritten. [... ]RGM wiederum hat die Zeichen der Zeit erkannt: Mit der Enttabuisierung des Themas öffentliche Sicherheit haben SP und Grüne den Bürgerlichen den Wind aus den Segeln genommen.» – Bernhard Ott, «Bund» vom 1. Dezember 2008
                                     <br /><br /><i>Die tragische Figur dieser Wahlen war Sicherheitsdirektor Stephan Hügli (FDP, Liste Die Mitte), der 2007 als Ersatz für den verstorbenen Kurt Wasserfallen in den Gemeinderat gewählt wurde. Einerseits hatte er die Brisanz der Anti-SVP-Demonstration unterschätzt. Andererseits entschied sich die FDP, mit Barbara Hayoz nur einen Listenplatz auf der Mitte-Liste zu beanspruchen. Mit seiner eigenen Liste hatte Hügli keine Chancen auf eine Wiederwahl. (zec) <br /><br />Der Gemeinderat: Edith Olibet (SP; Direktorin für Bildung, Soziales und Sport), Alexander Tschäppät (SP; Stadtpräsident), Barbara Hayoz (FDP; Vizepräsidentin, Direktorin für Finanzen, Personal und Informatik), Regula Rytz (GB; Direktorin für Tiefbau, Verkehr und Stadtgrün), Reto Nause (neu) (CVP; Direktor für Sicherheit, Umwelt und Energie). Abgewählt: Stephan Hügli (Die Mitte).</i>
                                 </div>
                                 <div className="two wide column"></div>
@@ -174,6 +181,7 @@ class ElectionsCarousel extends Component {
 
                                 <div className="eight wide column">
                                     <img  className="ui centered large image" src="http://interaktiv.derbund.ch/ext/2016/elections-slider/images/front12-small.jpg" />
+                                    <p><a href="http://interaktiv.derbund.ch/ext/2016/elections-slider/images/front2012.pdf" target="_blank">PDF-Version öffnen</a></p>
                                 </div>
                             
                                 <div className="six wide left aligned column">

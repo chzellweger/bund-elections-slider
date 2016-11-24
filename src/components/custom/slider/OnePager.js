@@ -22,7 +22,8 @@ class OnePager extends Component {
                   <div className="c-item">
                       
                       <img  className="ui centered large image" src="http://interaktiv.derbund.ch/ext/2016/elections-slider/images/front84-small.jpg" />
-                      
+                      <p><a href="http://interaktiv.derbund.ch/ext/2016/elections-slider/images/front84.pdf" target="_blank">PDF-Version öffnen</a></p>
+
                       <div className="ui centered text container">
                       <h2>1984</h2>
                       <h6>Wahl am 2. Dezember 1984</h6>
@@ -39,7 +40,8 @@ class OnePager extends Component {
                   <div className="c-item">
                       
                       <img  className="ui centered large image" src="http://interaktiv.derbund.ch/ext/2016/elections-slider/images/front88-small.jpg" />
-                      
+                      <p><a href="http://interaktiv.derbund.ch/ext/2016/elections-slider/images/front88.pdf" target="_blank">PDF-Version öffnen</a></p>
+
                       <div className="ui centered text container">
                       <h2>1988</h2>
                       <h6>Wahl am 4. Dezember 1988</h6>
@@ -57,7 +59,8 @@ class OnePager extends Component {
                   <div className="c-item">
                       
                       <img  className="ui centered large image" src="http://interaktiv.derbund.ch/ext/2016/elections-slider/images/front92-small.jpg" />
-                      
+                      <p><a href="http://interaktiv.derbund.ch/ext/2016/elections-slider/images/front92.pdf" target="_blank">PDF-Version öffnen</a></p>
+
                       <div className="ui centered text container">
                       <h2>1992</h2>
                       <h6>Wahl am 6. Dezember 1992</h6>
@@ -75,7 +78,8 @@ class OnePager extends Component {
                   <div className="c-item">
                       
                       <img  className="ui centered large image" src="http://interaktiv.derbund.ch/ext/2016/elections-slider/images/front96-small.jpg" />
-                      
+                      <p><a href="http://interaktiv.derbund.ch/ext/2016/elections-slider/images/front96.pdf" target="_blank">PDF-Version öffnen</a></p>
+
                       <div className="ui centered text container">
                       <h2>1996</h2>
                       <h6>Wahl am 1. Dezember 1996</h6>
@@ -92,7 +96,8 @@ class OnePager extends Component {
                   <div className="c-item">
                       
                       <img  className="ui centered large image" src="http://interaktiv.derbund.ch/ext/2016/elections-slider/images/front00-small.png" />
-                      
+                      <p><a href="http://interaktiv.derbund.ch/ext/2016/elections-slider/images/front2000.pdf" target="_blank">PDF-Version öffnen</a></p>
+
                       <div className="ui centered text container">
                       <h2>2000</h2>
                       <h6>Wahl am 26. November 2000</h6>
@@ -109,7 +114,8 @@ class OnePager extends Component {
                   <div className="c-item">
                   
                       <img  className="ui centered large image" src="http://interaktiv.derbund.ch/ext/2016/elections-slider/images/front04-small.png" />
-                      
+                      <p><a href="http://interaktiv.derbund.ch/ext/2016/elections-slider/images/front2004.pdf" target="_blank">PDF-Version öffnen</a></p>
+
                       <div className="ui centered text container">
                       <h2>2004</h2>
                       <h6>Wahl am 28. November 2004</h6>
@@ -126,7 +132,8 @@ class OnePager extends Component {
                   <div className="c-item">
                      
                       <img  className="ui centered large image" src="http://interaktiv.derbund.ch/ext/2016/elections-slider/images/front08-small.jpg" />
-                  
+                      <p><a href="http://interaktiv.derbund.ch/ext/2016/elections-slider/images/front2008.pdf" target="_blank">PDF-Version öffnen</a></p>
+
                       <div className="ui centered text container">
                       <h2>2008</h2>
                       <h6>Wahl am 30. November 2008</h6>
@@ -143,7 +150,8 @@ class OnePager extends Component {
                   <div className="c-item">
                       
                       <img  className="ui centered large image" src="http://interaktiv.derbund.ch/ext/2016/elections-slider/images/front12-small.jpg" />
-                  
+                      <p><a href="http://interaktiv.derbund.ch/ext/2016/elections-slider/images/front2012.pdf" target="_blank">PDF-Version öffnen</a></p>
+
                       <div className="ui centered text container">
                       <h2>2012</h2>
                       <h6>Wahl am 25. November 2012</h6>
@@ -158,7 +166,7 @@ class OnePager extends Component {
                 </td>
                 </tr>
                 </tbody>
-                </table>    
+                </table>
                 
                 </div>
                 )
