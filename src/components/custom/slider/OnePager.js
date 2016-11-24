@@ -3,6 +3,7 @@ require('ta-semantic-ui/semantic/dist/components/container.css');
 require('ta-semantic-ui/semantic/dist/components/image.css');
 require('ta-semantic-ui/semantic/dist/components/table.css');
 require('ta-semantic-ui/semantic/dist/components/segment.css');
+require('ta-semantic-ui/semantic/dist/components/icon.css');
 
 require('./OnePager.scss')
 
@@ -18,9 +19,9 @@ class OnePager extends Component {
                 <table>
                 <tbody>
                 <tr>
+                
                 <td>
                   <div className="c-item">
-                      
                       <img  className="ui centered large image" src="http://interaktiv.derbund.ch/ext/2016/elections-slider/images/front84-small.jpg" />
                       <p><a href="http://interaktiv.derbund.ch/ext/2016/elections-slider/images/front84.pdf" target="_blank">PDF-Version öffnen</a></p>
 
@@ -32,6 +33,14 @@ class OnePager extends Component {
                       <div className="ui left aligned text container">
                       <br />«Überraschender Ausgang der Berner Gemeinderatswahl: Die als «Vierer mit Stadtpräsident» angetretenen Kandidaten von FDP, SVP und CVP haben den Einzug in die [damals noch siebenköpfige] Exekutive geschafft, obwohl ihnen angesichts der Vielzahl von Listen kaum jemand einen Vollerfolg zugetraut hatte. Im Berner Gemeinderat werden somit in den kommenden vier Jahren die Bürgerlichen den Ton angeben. Das ist umso bemerkenswerter, als sich die Kräfteverhältnisse im Stadtrat, von einem gewaltigen Vormarsch der Nationalen Aktion und ebenso bedeutenden Verlusten der SP abgesehen, kaum wesentlich ändern werden.» <br />– Hans Kaufmann, «Bund» vom 3. Dezember 1984
                       <br /><br /><i>1980 hatte sie sich abgezeichnet, 1984 war es so weit: Die bürgerliche Wende in Bern war geschafft. 38,9 Prozent der Stimmen erzielte die Liste von FDP, SVP und CVP. Die SP erreicht nur 21,8 Prozent – ein Einbruch um mehr als ein Drittel gegenüber 1980. (zec) <br /><br />Der Gemeinderat: Heinz Bratschi (SP; Fürsorge und Gesundheit), Werner Bircher (FDP; Stadtpräsident), Marco Albisetti (FDP; Polizei), Josef Bossart (CVP; Finanzen), Gret Haller (SP; Schule), Alfred Neukomm (SP; Stadtbetriebe), Marc-Roland Peter (SVP; Planung und Bau).</i>
+                      <br />
+                      <div className="ui center aligned container">
+                      <br />
+                      <br />
+                      <br />
+                      <i className="big arrow circle right icon"></i>
+                      <h6>Nach rechts wischen für weiter</h6>
+                      </div>
                       </div>
                   
                   </div>
