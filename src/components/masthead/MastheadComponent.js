@@ -16,6 +16,7 @@ import FacebookShareIcon from './facebookShareIcon.component';
 // Semantic UI
 require('ta-semantic-ui/semantic/dist/components/reset.css');
 require('ta-semantic-ui/semantic/dist/components/site.css');
+
 require('ta-semantic-ui/semantic/dist/components/grid.css');
 require('ta-semantic-ui/semantic/dist/components/container.css');
 require('ta-semantic-ui/semantic/dist/components/icon.css');
@@ -33,9 +34,12 @@ class MastheadComponent extends React.Component {
   constructor(state) {
     super(state);
 
+    this.toggleModal = this.toggleModal.bind(this)
+
     this.state = {
       ...state,
-      facebookShares: 0
+      facebookShares: 0,
+      commentsState: false
     };
   }
 
@@ -55,13 +59,15 @@ class MastheadComponent extends React.Component {
             });
           }
           this.setState({
-            facebookShares: result.share.share_count || 0
+            facebookShares: result.share.share_count || 0,
+            commentsState: false
           });
         });
     }
   }
-
-
+  toggleModal() {
+    this.props.toggleModal();
+  }
   render() {
     // Prepare constants for the inverted version
     const invertedClass = this.props.inverted ? 'inverted' : '';
@@ -94,7 +100,12 @@ class MastheadComponent extends React.Component {
                              `&text=${this.props.twitterShareText}` : ''}`)}
                          className="twitter-share item">
                         <i className="twitter middle aligned icon"/>
-                      </a></div>
+                      </a>
+                      {/*comment-icon*/}
+                      <a href="#" className="item" onClick={this.toggleModal}>
+                      <i className="comment icon"></i>
+                      </a>
+                      </div>
                   </div> )
               }
             })()}
