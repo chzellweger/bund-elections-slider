@@ -2,15 +2,6 @@ require('ta-semantic-ui/semantic/dist/components/reset.css');
 require('ta-semantic-ui/semantic/dist/components/site.css');
 require('ta-semantic-ui/semantic/dist/components/icon.css');
 
-require('ta-semantic-ui/semantic/dist/components/dimmer.css');
-require('ta-semantic-ui/semantic/dist/components/dimmer.js');
-
-require('ta-semantic-ui/semantic/dist/components/transition.css');
-require('ta-semantic-ui/semantic/dist/components/transition.js');
-
-require('ta-semantic-ui/semantic/dist/components/modal.css');
-require('ta-semantic-ui/semantic/dist/components/modal.js');
-
 require('styles/App.css');
 require('./main.scss');
 
@@ -21,7 +12,6 @@ import MastheadComponent from '../masthead/MastheadComponent';
 
 import ElectionsCarousel from '../custom/slider/SimpleSlider'
 import OnePager from '../custom/slider/OnePager'
-import CommentComponent from '../custom/comments/CommentComponent'
 
 import FeedbackMessage from '../feedbackMessage/feedbackMessage.component.js'
 import CopyrightNotice from '../copyrightNotice/CopyrightNotice.component.js'
@@ -42,8 +32,7 @@ class AppComponent extends Component {
   constructor (props) {
     super(props);
     this.handleResize = this.handleResize.bind(this)
-    this.toggleModal = this.toggleModal.bind(this)
-    
+
     this.state = {
       width: window.innerWidth,
       height: window.innerHeight
@@ -56,17 +45,11 @@ class AppComponent extends Component {
   });
   console.log(this.state.width, this.state.height)
 }
-toggleModal() {
-  $(this.modal).
-    modal('toggle')
-}
 componentWillMount() {
   this.state.windowWidth = window.innerWidth
 }
 componentDidMount() {
         window.addEventListener('resize', ::this.handleResize)
-        $(this.mdoal)
-          .modal()
     }
   componentWillUnmount() {
           window.removeEventListener('resize', ::this.handleResize)
@@ -76,18 +59,17 @@ componentDidMount() {
     let width = this.state.windowWidth;
     console.log(width)
     if (width >= 800) {
-      ComponentToRender = <ElectionsCarousel />
-    } else {
-      ComponentToRender = <OnePager />
-    }
+                  ComponentToRender = <ElectionsCarousel />
+                } else {
+                  ComponentToRender = <OnePager />
+                }
               
     return (
       <div className="index">
           
           <div>
               
-              <MastheadComponent  inverted={true}
-                                  toggleModal={this.toggleModal}/>
+              <MastheadComponent inverted={true}/>
        
               <div>
                 
@@ -99,12 +81,7 @@ componentDidMount() {
       
           <FeedbackMessage />
           <CopyrightNotice inverted={true}/>
-          
-          <div className="ui fullscreen modal" ref={(e) => {this.modal = e}}>
-            <div>
-            <CommentComponent closeModal={this.toggleModal}/>
-            </div>
-          </div>
+      
       </div>
       );
   }
