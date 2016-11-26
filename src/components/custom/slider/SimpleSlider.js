@@ -26,10 +26,10 @@ class ElectionsCarousel extends Component {
 
             <Carousel   showArrows={true}
                         showIndicators={false}
-                        infiniteLoop={true}
+                        infiniteLoop={false}
                         showThumbs={false}
                         onChange={this.scrollToTop}
-                        swipeScrollTolerance={100}>
+                        swipeScrollTolerance={150}>
                                   
                         <div>
                             <div className="ui stackable grid">
@@ -126,7 +126,7 @@ class ElectionsCarousel extends Component {
                                 <div className="six wide left aligned column">
                                     <h2>2000</h2>
                                     <h4>Wahl am 26. November 2000</h4>
-                                    <h3>«Erosion bei RGM»»</h3>
+                                    <h3>«Erosion bei RGM»</h3>
                                     «Wer die Stadtberner Wahlen aus der Vogelperspektive betrachtet, wird kaum grosse Veränderungen feststellen: Die Kräfteverhältnisse in der Regierung sind gleich geblieben. [...] Trotzdem: Das RGM-Bündnis hat seinen Zenit überschritten. Mit der Abwahl von Claudia Omar hat RGM die Mitte und damit den inneren Zusammenhalt verloren. Die SP hat bewusst auf die Abwahl der GFL-Politikerin hingearbeitet. Damit dürfte das vor acht Jahren mit viel Optimismus lancierte Bündnis sein faktisches Ende gefunden haben. Denn die zutiefst enttäuschte GFL wird sich im Stadtrat kaum mehr einbinden lassen.» – Jürg Müller, «Bund» vom 27. November 2000
                                     <br /><br /><i>Die Wahl 2000 war der Beginn einer turbulenten Legislatur im Gemeinderat: Kurt Wasserfallen (FDP) stiess mit seiner «Law & Order»-Maxime auf erbitterten Widerstand. Es war schliesslich Adrian Guggisberg, welcher den gordischen Knoten durchschlug: Auf seinen Vorschlag wurden die Departemente neu verteilt. (zec) <br /><br />Der Gemeinderat: Klaus Baumgartner (SP; Stadtpräsident), Therese Frösch (GB; Finanzen, ab 2003 Fürsorge und Gesundheit), Kurt Wasserfallen (FDP; Öffentliche Sicherheit, ab 2003 Finanzen), Ursula Begert (SVP; Fürsorge und Gesundheit, ab 2003 Öffentliche Sicherheit), Adrian Guggisberg (CVP; Hochbau), Edith Olibet (neu) (SP; Schule), Alexander Tschäppät (neu) (SP; Planung, Verkehr und Tiefbau), Abgewählt: Claudia Omar (gfl).</i>
                                 </div>
@@ -188,7 +188,7 @@ class ElectionsCarousel extends Component {
                                     <h2>2012</h2>
                                     <h4>Wahl am 25. November 2012</h4>
                                     <h3>«Überragender Sieg von Rot-Grün»</h3>
-                                    Bei den Wahlen in den Berner Gemeinderat standen sich heuer erstmals drei statt zwei Lager gegenüber. Die Aufspaltung des bürgerlichen Lagers in SVP und FDP einerseits («Bürgerliches Bündnis») und die Mitte-Liste andererseits hatte für die regierende Mehrheit von Rot-Grün-Mitte (RGM) jedoch keine Konsequenzen – ganz im Gegenteil. Mit einem Wähleranteil von 59 Prozent erzielte RGM das beste Ergebnis seit 1992 und schrammte gar nahe an einem vierten Gemeinderatssitz vorbei, für den ein Wähleranteil von 64 Prozent nötig gewesen wäre. Mit diesem Topresultat bestätigt sich einmal mehr, was seit zwanzig Jahren eine Binsenwahrheit für die Berner Stadtregierung ist: Die Stärke von RGM ist die Schwäche der Bürgerlichen. [...] Jenseits der bürgerlichen Schwäche gilt es aber festzuhalten, dass es für die Wähler keinen zwingenden Grund für einen Richtungswechsel gab. Im Vergleich mit dem Bankenplatz Zürich verläuft die Entwicklung in der Bundesstadt relativ stabil. RGM hat in den letzten zwanzig Jahren einiges zur Verbesserung der Lebensqualität in der Wohnstadt Bern beigetragen. – Bernhard Ott, «Bund» vom 26. November 2012
+                                    «Bei den Wahlen in den Berner Gemeinderat standen sich heuer erstmals drei statt zwei Lager gegenüber. Die Aufspaltung des bürgerlichen Lagers in SVP und FDP einerseits («Bürgerliches Bündnis») und die Mitte-Liste andererseits hatte für die regierende Mehrheit von Rot-Grün-Mitte (RGM) jedoch keine Konsequenzen – ganz im Gegenteil. Mit einem Wähleranteil von 59 Prozent erzielte RGM das beste Ergebnis seit 1992 und schrammte gar nahe an einem vierten Gemeinderatssitz vorbei, für den ein Wähleranteil von 64 Prozent nötig gewesen wäre. Mit diesem Topresultat bestätigt sich einmal mehr, was seit zwanzig Jahren eine Binsenwahrheit für die Berner Stadtregierung ist: Die Stärke von RGM ist die Schwäche der Bürgerlichen. [...] Jenseits der bürgerlichen Schwäche gilt es aber festzuhalten, dass es für die Wähler keinen zwingenden Grund für einen Richtungswechsel gab. Im Vergleich mit dem Bankenplatz Zürich verläuft die Entwicklung in der Bundesstadt relativ stabil. RGM hat in den letzten zwanzig Jahren einiges zur Verbesserung der Lebensqualität in der Wohnstadt Bern beigetragen.» – Bernhard Ott, «Bund» vom 26. November 2012
                                     <br /><br /><i>Der Gemeinderat: Alexander Tschäppät (SP; Stadtpräsident), Reto Nause (CVP; Vizepräsident, Direktor für Sicherheit, Umwelt und Energie), Ursula Wyss (neu) (SP; Direktorin für Tiefbau, Verkehr und Stadtgrün), Franziska Teuscher (neu) (GB; Direktorin für Bildung, Soziales und Sport), Alexandre Schmidt (neu) (FDP; Direktor für Finanzen, Personal und Informatik). Zurückgetreten: Edith Olibet (SP), Barbara Hayoz (FDP), Regula Rytz (GB).</i>
                                 </div>
                                 <div className="two wide column"></div>
